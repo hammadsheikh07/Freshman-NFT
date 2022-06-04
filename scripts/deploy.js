@@ -8,7 +8,7 @@ async function main()
     const deployednftContract = await nftContract.deploy();
 
     //printing the address of deployed nft contract
-    console.log("NFT contract address is: ",deployednftContract);
+    console.log("NFT contract address is: ",deployednftContract.address);
 }
 
 //calling the main funtion
